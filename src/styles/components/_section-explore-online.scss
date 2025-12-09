@@ -29,13 +29,13 @@
     }
 
   &-areas {
-    background-image: url(/src/images/areas.png);
+    background-image: url(../images/areas.png);
   }
   &-travel {
-    background-image: url(/src/images/travel-s.png);
+    background-image: url(../images/travel-s.png);
   }
   &-tour {
-    background-image: url(/src/images/tour.png);
+    background-image: url(../images/tour.png);
   }
   }
 
@@ -78,13 +78,13 @@ grid-template-columns: repeat(6, 1fr);
     min-height: 387px;
 }
 .exhibition-photo-areas {
-  background-image: url(/src/images/collection-areas-m.png);
+  background-image: url(../images/collection-areas-m.png);
 }
 .exhibition-photo-travel {
-  background-image: url(/src/images/travel-m.png);
+  background-image: url(../images/travel-m.png);
 }
 .exhibition-photo-tour{
-  background-image: url(/src/images/tour-m.png);
+  background-image: url(../images/tour-m.png);
 }
 }
 
@@ -112,12 +112,12 @@ grid-template-columns: repeat(12, 1fr);
 }
 
 .exhibition-photo-areas {
-  background-image: url(/src/images/areas-l.png);
+  background-image: url(../images/areas-l.png);
 }
 .exhibition-photo-travel {
-  background-image: url(/src/images/travel-l.png);
+  background-image: url(../images/tour-l.png);
 }
 .exhibition-photo-tour{
-  background-image: url(/src/images/tour-l.png);
+  background-image: url(../images/tour-l.png);
 }
 }

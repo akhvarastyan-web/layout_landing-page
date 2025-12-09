@@ -1,7 +1,7 @@
 .header {
   box-sizing: border-box;
   height: 100vh;
-  background-image: url(/src/images/front-image.png);
+  background-image: url(../images/front-image-m.png);
    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,13 +9,13 @@
     padding-top: 25px;
 
     @media (min-width: 576px) {
-    background-image: url(/src/images/front-image-m.png);
+    background-image: url(../images/front-image-m.png);
     padding-inline: 72px;
     padding-top: 50px;
     }
 
     @media (min-width: 1260px) {
-      background-image: url(/src/images/front-image-l.png);
+      background-image: url(../../images/front-image-l.png);
       padding-inline: 120px;
     }
 
