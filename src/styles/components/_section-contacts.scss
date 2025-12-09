@@ -85,14 +85,15 @@ input, textarea, button {
   padding-left: 10px;
 }
 
+input {
+  height: 48px;
+}
+
 input, textarea::placeholder {
 height: 20px;
 padding-block: 0;
 }
 
-input {
-  height: 48px;
-}
 
 input:focus, textarea:focus {
   outline: none;

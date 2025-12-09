@@ -3,15 +3,11 @@
   justify-content: space-between;
   align-items: center;
 
-
-
-
 &__logo {
   display: flex;
   width: 64px;
   height: 46px;
 }
-
 
 
 &__icons {
@@ -41,7 +37,6 @@
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
-
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s, visibility 0.3s;
