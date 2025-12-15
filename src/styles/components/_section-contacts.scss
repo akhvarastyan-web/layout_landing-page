@@ -18,7 +18,7 @@ gap: 16px;
   line-height: 27px;
   letter-spacing: 0;
 
-&-title p {
+&-paragraf {
   margin: 0;
   padding: 0;
 }
@@ -137,9 +137,10 @@ grid-template-columns: repeat(6, 1fr);
 
 @media (min-width: 1260px) {
 .section-contact-us-content{
-display: grid;
-column-gap: 20px;
 grid-template-columns: repeat(12, 1fr);
+}
+.how-to-contact {
+  grid-column: 1 / 7;
 }
 .contact-fifth-avenue {
     grid-column: 1 / 4;

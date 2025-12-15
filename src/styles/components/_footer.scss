@@ -1,5 +1,5 @@
 .footer {
-  background-image: url('../images/footer-s.png');
+  background-image: url(../images/footer-s.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12,13 +12,13 @@
 
 @media (min-width: 576px) {
   .footer {
-    background-image: url(../images/footer-m.png);
+    background-image: url(../images/footer-m.svg);
     height: 359px;
   }
 }
 
 @media (min-width: 1260px) {
   .footer {
-    background-image: url(../images/footer-l.png)
+    background-image: url(../images/footer-l.svg)
   }
 }

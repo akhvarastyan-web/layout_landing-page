@@ -43,31 +43,31 @@ grid-template-columns: repeat(var(--columns), 1fr);
 }
 
 .old-masters-first {
-background-image: url(../images/old-masters-s-1.png);
+background-image: url(../images/old-masters-s-1.svg);
 }
 
 .old-masters-second {
-background-image: url(../images/old-masters-s-2.png)
+background-image: url(../images/old-masters-s-2.svg)
 }
 
 .bodhi-first {
-  background-image: url(../images/bodhi-s-1.png);
+  background-image: url(../images/bodhi-s-1.svg);
 }
 
 .bodhi-second {
-  background-image: url(../images/bodhi-s-2.png);
+  background-image: url(../images/bodhi-s-2.svg);
 }
 
 .bodhi-third {
-  background-image: url(../images/bodhi-s-3.png);
+  background-image: url(../images/bodhi-s-3.svg);
 }
 
 .disney-first {
-  background-image: url(../images/disney-s-1.png);
+  background-image: url(../images/disney-s-1.svg);
 }
 
 .disney-second {
-  background-image: url(../images/disney-s-2.png);
+  background-image: url(../images/disney-s-2.svg);
 }
 
 
@@ -116,22 +116,22 @@ background-image: url(../images/old-masters-s-2.png)
     .old-masters-first {
       grid-column: 1 / 5;
       min-height: 186px;
-      background-image: url(../images/old-masters-m-1.png);
+      background-image: url(../images/old-master-m-1.svg);
     }
     .old-masters-second {
       grid-column: 5 / 7;
       min-height: 186px;
-      background-image: url(../images/old-masters-m-2.png);
+      background-image: url(../images/old-masters-m-2.svg);
     }
     .bodhi-first {
       grid-column: 1 / 4;
       min-height: 284px;
-      background-image: url(../images/bodhi-m-1.png);
+      background-image: url(../images/bodhi-m-1.svg);
     }
     .bodhi-second {
       grid-column: 4 / 7;
       min-height: 284px;
-      background-image: url(../images/bodhi-m-2.png);
+      background-image: url(../images/bodhi-m-2.svg);
     }
     .bodhi-third  {
       display: none;
@@ -139,12 +139,12 @@ background-image: url(../images/old-masters-s-2.png)
     .disney-first {
       grid-column: 1 / 3;
       min-height: 186px;
-      background-image: url(../images/disney-m-1.png);
+      background-image: url(../images/disney-m-1.svg);
     }
     .disney-second {
       grid-column: 3 / 7;
       min-height: 186px;
-      background-image: url(../images/disney-m-2.png);
+      background-image: url(../images/disney-m-2.svg);
     }
 }
 }
@@ -156,31 +156,32 @@ background-image: url(../images/old-masters-s-2.png)
     grid-template-columns: repeat(12, 1fr);
     .old-masters-first {
       grid-column: 1 / 9;
-      background-image: url(../images/old-masters-l-1.png);
+      background-image: url(../images/old-masters-l-1.svg);
     }
     .old-masters-second {
       grid-column: 9 / 13;
-      background-image: url(../images/old-masters-l-2.png);
+      background-image: url(../images/old-masters-l-2.svg);
     }
     .bodhi-first {
       grid-column: 1 / 5;
-      background-image: url(../images/bodhi-l-1.png);
+      background-image: url(../images/bodhi-l-1.svg);
     }
     .bodhi-second {
       grid-column: 5 / 9;
-      background-image: url(../images/bodhi-l-2.png);
+      background-image: url(../images/bodhi-l-2.svg);
     }
     .bodhi-third  {
+      display: block;
        grid-column: 9 / 13;
-       background-image: url(../images/01agh8ju6n4fg1-\(1\)-\(1\)-\(1\)-\(1\)-\(1\)-\(1\)_optimized\ \(1\)\ \(1\).png);
+       background-image: url(../images/bodhi-s-3.svg);
     }
     .disney-first {
       grid-column: 1 / 5;
-      background-image: url(../images/disney-l-1.png);
+      background-image: url(../images/disney-l-1.svg);
     }
     .disney-second {
       grid-column: 5 / 13;
-      background-image: url(../images/disney-l-2.png);
+      background-image: url(../images/disney-l-2.svg);
     }
     .event-content-photo-container {
       min-height: 320px;

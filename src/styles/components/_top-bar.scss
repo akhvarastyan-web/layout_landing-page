@@ -30,11 +30,13 @@
 }
 
  @media (min-width: 1260px) {
-  .top-bar__icons{
+  .icone-phone {
     position: relative;
-   }
-.phone-numbers {
-    font-size: 16px;
+  }
+.icone-phone::after {
+  content: "The MET Fifth Avenue\A+ 1 212-535-7710\A\AThe MET cloisters\A+ 1 212-923-3700";
+  white-space: pre;
+  font-size: 16px;
     line-height: 16px;
     font-weight: 700;
     opacity: 0;
@@ -54,10 +56,10 @@
     top: 20%;
    }
    .phone-numbers-cloisters {
-    top: 220%;
+    top: 250%;
    }
 
-   .top-bar__icons:hover .phone-numbers {
+   .icone-phone:hover::after {
     opacity: 1;
     visibility: visible;
    }
